@@ -1,0 +1,125 @@
+
+
+
+
+
+.teachers {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+// teachers-header
+
+
+.numbers {
+    margin-bottom: 120px;
+}
+
+.numbers-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.numbers__column {
+    text-align: center;
+    width: 270px;
+
+    padding: 0 15px;
+
+}
+.numbers-title {
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #10B582;
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 1;
+
+    margin-bottom: 15px;
+}
+
+.numbers-subtitle {   
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.2;
+
+    color: #353A5A;
+}
+
+// teachers
+
+.teachers-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.col-left {
+    width: 500px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.teachers-title {
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 100%;
+
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    margin-bottom: 20px;
+}
+
+.teachers-desc {
+    margin-bottom: 50px;
+    
+    p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        margin-bottom: 15px;
+
+        &:last-of-type {
+            margin-bottom: 0;
+        } 
+    }
+
+}
+
+.teachers-button {
+    display: inline-block;
+    background-color: #10B582;
+    border-radius: 0px 20px;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    text-align: center;
+
+    color: #FDFDFD;
+
+    padding: 20px 38px;
+
+    transition: 0.2s ease-in;
+
+    &:hover {
+        background-color: #00D493;
+    }
+}
+
+.col-right {
+    
+    display: flex;
+    flex-wrap: wrap;
+    width: 570px;
+    column-gap: 30px;
+    row-gap: 30px;
+}
+
+.teacher-card{
+    width: 170px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.3;
+}
+
+.teacher-pic {
+    margin-bottom: 15px;
+}

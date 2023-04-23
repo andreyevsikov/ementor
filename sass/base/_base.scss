@@ -1,0 +1,83 @@
+html {
+    min-height: 100vh; /* sticky footer */
+	scroll-behavior: smooth;
+}
+
+body {
+	min-height: 100vh; /* sticky footer */
+	display: flex; /* sticky footer */
+	flex-direction: column; /* sticky footer */
+
+	font-family: 'Raleway', sans-serif; 
+    font-size: 16px;
+    line-height: 1.6875;
+    color: #353A5A;
+
+
+    text-rendering: optimizeSpeed;
+    //text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+body > * {
+	flex-shrink: 0; /* sticky footer */
+}
+
+/* Grid styles */
+
+.container {
+	max-width: 1170px;
+    width: 100%;
+	margin-left: auto;
+    margin-right: auto;
+
+
+    &--fluid {
+        max-width: unset;
+    }
+
+    &--no-padding {
+        padding: 0;
+    }
+
+
+}
+
+/* Utility */
+
+.none {
+	display: none !important;
+}
+
+.visually-hidden {
+    opacity: 0;
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
+    display: block;
+    margin-left: -10000px;
+    background: transparent;
+    font-size: 0;
+}
+
+/* Sticky Footer */
+
+.footer {
+	margin-top: auto; /* sticky footer */
+
+}
+
+
+// .backtop-btn {
+
+//     position: fixed;
+//     bottom: 30px;
+//     right: 30px;
+//     z-index: 100;
+//     transition: 0.3s ease-in;
+// }
+
+
